@@ -6,7 +6,7 @@ for name in all_players[:3]:
 
 print("\nNew players are:")
 print("----------------")	
-for name in all_players[-3:]:
+for name in all_players[-2:]:
 	print(name)
 
 print("\nAll players are:")
