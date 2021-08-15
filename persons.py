@@ -1,0 +1,2 @@
+persons = { 'Name': 'nabil', 'Surname': 'Maghawry','Age': 37, 'County': 'Devon' }
+print("This perons name is " + persons['Name'].title() + ", and his surname is " + persons['Surname'].title() + ". He is " + str(persons['Age']) + " years old and lives in " + persons['County'].title())
