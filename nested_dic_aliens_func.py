@@ -27,7 +27,6 @@ def alien_display(aliens):
 		print("Points: " + str(alien_info['points']))
 
 aliens = {}
-test = {'test_text': 'test'}
 
 aliens = alien_create(aliens)
 
