@@ -18,7 +18,3 @@ while active != 'FALSE':
 		continue
 	print(current_number)
 print("FLAG value changed from TRUE to " + active + " , exiting program")
-	
-
-
-	

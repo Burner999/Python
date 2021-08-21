@@ -1,12 +1,12 @@
 aliens = {}
 
 for alien_id in range (30):
-	new_alien = {'colour' : 'green', 'points': 5, 'speed': 'slow', 'id' : (alien_id) + 1}
+	new_alien = {'colour' : 'green', 'points': 5, 'speed': 'slow', 'id' : ((alien_id) + 1)}
 	aliens[(alien_id)]=(new_alien)
 
 for alien_id, alien_atts in aliens.items():
 	count = alien_id
-	if count < 5:
+	if count <= 5:
 		if alien_atts['colour'] == 'green':
 			alien_atts['colour'] = 'yellow'
 			alien_atts['speed'] = 'medium'
